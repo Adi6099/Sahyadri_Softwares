@@ -1,0 +1,37 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%; 
+    max-width: 600px; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+   
+}
+ul{
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    gap: 5%;
+}
+main {
+    padding: 1rem;
+}
+article {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

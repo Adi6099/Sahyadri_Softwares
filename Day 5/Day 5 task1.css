@@ -1,0 +1,55 @@
+.container{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black ;
+    max-width: 50%;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+h1{
+    text-align: center;
+}
+
+p.detail{
+    text-align: center;
+}
+
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.summary{
+    border-bottom: 2px solid black;
+}
+
+.exp{
+    border-bottom: 2px solid black;
+}
+
+.edu{
+    border-bottom: 2px solid black;
+}
+
+.skills{
+    border-bottom: 2px solid black;
+}
+
+.date1{
+    float: right;
+}
+
+.date2{
+    float: right;
+}
+
+.date3{
+    float: right;
+}

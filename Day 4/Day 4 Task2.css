@@ -1,0 +1,21 @@
+.content{
+    border: solid 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: silver;
+    border-style:double;
+    border-color: gold;
+    border-radius: 15px;
+    outline-offset: 15px;
+    outline-style:dotted;
+    outline-color: cyan;
+    outline-width: thick;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}

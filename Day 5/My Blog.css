@@ -1,0 +1,84 @@
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.uppercase{
+    text-transform: uppercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+p.indentation{
+    text-indent: 50px;
+}
+
+p.letter_spacing{
+    letter-spacing: 2px;
+}
+
+p.word_spacing{
+    word-spacing: 5px;
+}
+
+p.line_height{
+    line-height: 400%;
+}
+
+p.text_shadow{
+    text-shadow: 2px 2px 3px red;
+}
+
+li.shopping{
+    list-style-type:lower-greek;
+}
+
+li.students{
+    list-style-position: inside;
+}
+
+p.indentation{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p.font1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.font4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.calc{
+    position: relative;
+    left: 50px;
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 5px;
+  }
+  
+p.min{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: min(75%, 1000px);
+}
+
+p.max{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: min(75%, 1000px);
+}

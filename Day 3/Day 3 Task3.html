@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h2>We Value Your Feedback</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+        <label for="feedback">Your Feedback/Comments:</label><br>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Write your feedback here..." required></textarea><br><br>
+
+        <label>Rating:</label><br>
+        <input type="radio" id="star1" name="rating" value="1" required>
+        <label for="star1">1 Star</label><br>
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">2 Stars</label><br>
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">3 Stars</label><br>
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">4 Stars</label><br>
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">5 Stars</label><br><br>
+
+        <label>Would you recommend our service to others?</label><br>
+        <input type="checkbox" id="recommend-yes" name="recommend" value="Yes">
+        <label for="recommend-yes">Yes</label><br>
+        <input type="checkbox" id="recommend-no" name="recommend" value="No">
+        <label for="recommend-no">No</label><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+</html>
